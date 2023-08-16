@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Franklin:wght@600&family=Orbitron:wght@600&family=Poppins&display=swap');
+
+/* 
+font-family: 'Audiowide', cursive;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+
+
+
+.Footer {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+    padding: 20px;
+    background: #2c2c2c;
+    position: static;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+.FooterImg {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+
+}
+
+
+.Footer-logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #95afc0;
+    width: 90%;
+    color: lime;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+
+
+}
+
+
+.Footer-para {
+    width: 90%;
+    color: rgba(255, 255, 255, 0.411);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: small;
+    margin-top: 0;
+
+}
+
+
+.Footer-content {
+    width: 50%;
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+}
+
+.risidio-logo-wrapper {
+    display: flex;
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgba(255, 255, 255, 0.411);
+    align-items: center;
+    gap: 5px;
+}
+
+.risidio-logo {
+    width: 90px;
+}
+
+
+.Footer-list-1 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Footer-list-1 h4 {
+    font-size: 1.4rem;
+    font-family: 'Audiowide', cursive;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.74);
+    padding-bottom: 4px;
+    text-align: center;
+    color: white;
+
+}
+
+.Footer-Links {
+    /* border: 2px solid black; */
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.411);
+    margin-top: 5px;
+    font-size: medium;
+
+
+}
+
+.Footer-Links:hover {
+    color: rgba(255, 255, 255, 0.685);
+
+}
+
+
+.socials-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.socials {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 880px) {
+
+    .Footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Footer-logo {
+        font-size: 1.6rem;
+
+    }
+
+}

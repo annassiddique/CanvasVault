@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.Navbar {
+    box-shadow: 0px 2px 5px black;
+    /* background: #000; */
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: #2c2c2c;
+}
+
+.nav-logo {
+
+    font-family: 'Orbitron', sans-serif;
+    /* border: 2px solid yellow; */
+    padding-left: 17px;
+    padding-right: 17px;
+    text-decoration: none;
+
+}
+
+.nav-logo h1 {
+    color: lime;
+    border-right: 2px solid rgb(146, 182, 194);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 9px;
+    height: 50px;
+
+}
+
+
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-right: 6px;
+}
+
+
+.nav-Links {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    /* border: 2px solid black; */
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+
+.nav-Links h3 {
+    font-size: 1rem;
+
+}
+
+
+.nav-Links:hover {
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.651);
+}
+
+
+.nav-cart {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+
+.phone-content {
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+    right: 20px;
+}
+
+.menu-logo {
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+.close-logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    right: 10px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+.phone-menu {
+    visibility: hidden;
+    background: white;
+    position: absolute;
+    top: 35px;
+    right: -5px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 15;
+}
+
+
+.phone-Links {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99%;
+    text-align: center;
+    color: black;
+
+}
+
+.phone-Links h3 {
+    width: 95%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.61);
+
+}
+
+
+
+@media screen and (min-width: 880px) {
+    .navbar-content {
+        visibility: visible;
+    }
+
+    .menu-logo {
+        visibility: hidden;
+    }
+
+    /* Hide phone content for screens wider than 880px */
+    .phone-content {
+        visibility: hidden;
+    }
+}
+
+
+
+@media screen and (max-width: 880px) {
+
+    .navbar-content {
+        visibility: hidden;
+    }
+
+    .menu-logo {
+        visibility: visible;
+
+    }
+
+    .phone-content {
+        visibility: visible;
+
+    }
+
+
+
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Franklin:wght@600&family=Orbitron:wght@600&family=Poppins&display=swap');
+
+.collections {
+    /* border: 2px solid black; */
+    background: #2f3640;
+
+
+}
+
+.collection-carousel {
+    /* border: 2px solid green; */
+    box-shadow: 3px 2px 5px black;
+    
+}
+
+
+.Allcollection-wrapper {
+
+    /* border: 2px solid red; */
+}
+
+.collection-heading {
+    text-align: center;
+    /* border: 2px solid green; */
+    background: #1f2c28;
+    box-shadow: 2px 2px 5px black;
+    padding: 4px;
+    width: auto;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+
+
+.collection-heading:nth-child(3) {
+    background: #b6bdc5a2;
+}
+
+
+.collection-heading:nth-child(5) {
+    background: #ff4757;
+}

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Franklin:wght@600&family=Orbitron:wght@600&family=Poppins&display=swap');
+
+.Details {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+    background: #2f3640;
+    color: white;
+}
+
+
+
+
+.Details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    gap: 0px;
+    padding-right: 2px;
+}
+
+
+.NFT-div {
+    /* border: 2px solid red; */
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 99%;
+}
+
+.NFT {
+    height: auto;
+    width: 650px;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px black;
+
+
+}
+
+.NFTdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* border: 2px solid red; */
+    background: #1e272e;
+    width: 50%;
+    padding: 15px;
+    margin-right: 18px;
+    box-shadow: 3px 2px 5px black;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+
+
+.NFTdetails:hover {
+    border-radius: 0px;
+
+}
+
+
+
+.NFTcontent {
+
+    /* border: 2px solid red; */
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    background: #535c68;
+    box-shadow: 2px 2px 5px black;
+    justify-content: space-evenly;
+}
+
+.views {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+
+.NFTtitle {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 1px;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+}
+
+.Creator {
+    font-family: 'Libre Franklin', sans-serif;
+    /* border: 2px solid black; */
+    color: rgba(255, 255, 255, 0.534);
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 6px;
+}
+
+
+.price {
+    margin-top: 0;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 1px;
+    padding-left: 15px;
+
+}
+
+.addToCartBtn {
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 2px;
+    border: none;
+    background: rgba(255, 0, 0, 0.651);
+    font-size: .9rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 2px 5px black;
+}
+
+
+.addToCartBtn:hover {
+    border-radius: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 880px) {
+    .Details {
+        height: auto;
+        padding: 15px;
+    }
+
+    .Details-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .NFT-div {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .NFT {
+        width: auto;
+    }
+
+    .NFTdetails {
+
+        width: auto;
+        margin: 0px;
+    }
+
+    .NFTcontent {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .views {
+        width: 90%;
+        border-bottom: 2px solid #797070;
+    }
+
+    .views:nth-child(3) {
+        width: 90%;
+        border-bottom: none;
+    }
+
+    .addToCartBtn {
+        width: 100%;
+    }
+
+
+}
